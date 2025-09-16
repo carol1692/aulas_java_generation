@@ -9,16 +9,16 @@ public class Exercicio4 {
 		
 		float n1, n2, n3, n4;
 		
-		System.out.println("Digite nota 1:");
+		System.out.println("Digite n1:");
 		n1 = input.nextFloat();
 		
-		System.out.println("Digite nota 2:");
+		System.out.println("Digite n2 2:");
 		n2 = input.nextFloat();
 		
-		System.out.println("Digite nota 3 :");
+		System.out.println("Digite n3 3 :");
 		n3 = input.nextFloat();
 		
-		System.out.println("Digite nota 4:");
+		System.out.println("Digite n4:");
 		n4 = input.nextFloat();
 		
 		System.out.printf("A diferença do produto entre %.1f e %.1f pelo produto entre %.1f e %.1f é: %.1f ", n1, n2, n3, n4, (n1*n2) - (n3*n4) );

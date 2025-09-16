@@ -12,7 +12,7 @@ public class Exercicio1 {
 		System.out.println("Digite seu salário atual:");
 		salario = input.nextFloat();
 		
-		System.out.println("Digite o abono:");
+		System.out.println("Digite o abono:" + salario);
 		abono = input.nextFloat();
 		
 		novoSalario = salario + abono;
